@@ -114,7 +114,7 @@ switch VoxelType
     case 'lattice' % sigmoid fit;   
         ft = fittype( 'c/(1+exp(-a*(x-b)))', 'independent', 'x', 'dependent', 'y' );
         opts = fitoptions( 'Method', 'NonlinearLeastSquares','Display','Off');
-    case 'box' % Polynomial fit of Pol_Order orde
+    case 'box' % Polynomial fit of Pol_Order order
         if isnumeric(Pol_Order)
         options = fitoptions('Method','LinearLeastSquares','lower',zeros(1,3)); 
         eval(['ft=fittype("poly',num2str(Pol_Order),'");']);
