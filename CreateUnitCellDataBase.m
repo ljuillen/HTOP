@@ -180,3 +180,22 @@ uicontrol(gcf,'Style','push','String','HTOP','unit','norm',...
 uiwait(gcf);  % Continue to HTOP
 end
 end
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%{ 
+Institute of Structural Analysis & Antiseismic Research,
+School of Civil Engineering,
+National Technical University of Athens,
+----------------------------------------
+Reliable & Robust Design Group,
+Mechanical Engineering Department,
+KU Leuven,
+----------------------------------------
+This Matlab code was written by: 
+-Konstantinos-Iason Ypsilantis (konstantinos.ypsilantis@kuleuven.be)
+-George Kazakis (kzkgeorge@gmail.com)
+-Matthias Faes (matthias.faes@kuleuven.be)
+-David Moens (daavid.moens@kuleuven.be)
+-Nikos D. Lagaros (nlagaros@central.ntua.gr)
+Please sent your comments to (nlagaros@central.ntua.gr)
+%}
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
